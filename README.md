@@ -1,7 +1,4 @@
-### Deployed Links:
-
-Front-end: https://e-commerce-185fdc.netlify.app/
-Back-end: https://ecommerce-api-k4pz.onrender.com
+# E-Commerce Shop (FE)
 
 The frontend of the e-commerce shop is a React application that enables users to manage products and categories through interaction with a custom-built backend API.
 
