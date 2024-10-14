@@ -16,6 +16,11 @@ API Interaction: The frontend uses `POST`, `PUT`, and `GET` methods to interact 
 - Viewing product and category details.
 While the frontend offers core features for product and category management, the backend API supports additional functionalities that were not fully implemented due to time constraints. This provides a solid foundation for expanding the app in the future.
 
+### Features
+- CRUD operations on users, product, categories and orders
+- Products cannot be created if category doesn’t exist (this implies an association)
+- Orders cannot be created if user and products don’t exist. (this implies an association)
+- Postman collection with sample requests and responses
 
 # React + Vite
 
