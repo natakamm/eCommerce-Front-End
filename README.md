@@ -3,6 +3,20 @@
 Front-end: https://e-commerce-185fdc.netlify.app/
 Back-end: https://ecommerce-api-k4pz.onrender.com
 
+The frontend of the e-commerce shop is a React application that enables users to manage products and categories through interaction with a custom-built backend API.
+
+Product Management: Users can create new products, assign them to multiple categories, and edit existing products. The application allows users to modify product details like price, description, and category assignment. However, product deletion is not yet implemented in the frontend.
+
+Category Management: Full CRUD functionality for categories is available. Users can create, edit, and delete categories as needed, providing flexibility in organizing products.
+
+API Interaction: The frontend uses `POST`, `PUT`, and `GET` methods to interact with the backend API for product and category management.
+
+- Creating new products and categories.
+- Editing existing products and categories.
+- Viewing product and category details.
+While the frontend offers core features for product and category management, the backend API supports additional functionalities that were not fully implemented due to time constraints. This provides a solid foundation for expanding the app in the future.
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -78,3 +92,5 @@ plugins: [daisyui]
 ```
 
 Check out the various UI components from [Daisy](https://daisyui.com/components/) here.
+
+
